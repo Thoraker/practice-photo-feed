@@ -12,13 +12,13 @@ body {
     width: 100%;
 }
 img {
-    width: 600px;
-    height: 450px;
+    width: 800px;
+    height: 600px;
     object-fit: cover;
 }
 .entradas > div {
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     background-color: white;
     margin: 50px auto;
 }
@@ -31,6 +31,7 @@ p {
 }
 .titulo {
     display: flex;
+    align-items: baseline;
 }
 .titulo > p {
     color: darkgray;
